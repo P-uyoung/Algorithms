@@ -27,4 +27,6 @@ The below problems are provided by (1)Programmers, (2)LeetCode.
 | ----- | ----- |
 |43162. 네트워크|[Link](./Programmers/lv3/43162.%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/43162.py)|
 |43163. 단어변환|[Link](./Programmers/lv3/43163.%20%EB%8B%A8%EC%96%B4%EB%B3%80%ED%99%98/43163.py)|
+|43164. 여행경로|[Link](./Programmers/lv3/43164.%20%EC%97%AC%ED%96%89%EA%B2%BD%EB%A1%9C/43164.py)|
+|49189. 가장 먼 노드|[Link](./Programmers/lv3/49189.%20%EA%B0%80%EC%9E%A5%20%EB%A8%BC%20%EB%85%B8%EB%93%9C/49189.py)|
 |87694. 아이템 줍기 🏀|[Link](./Programmers/lv3/87694.%20%EC%95%84%EC%9D%B4%ED%85%9C%20%EC%A4%8D%EA%B8%B0%20%F0%9F%8F%80/87694.py)|
