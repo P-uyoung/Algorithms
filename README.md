@@ -31,3 +31,7 @@ The below problems are provided by (1)Programmers, (2)LeetCode.
 |49189. 가장 먼 노드|[Link](./Programmers/lv3/49189.%20%EA%B0%80%EC%9E%A5%20%EB%A8%BC%20%EB%85%B8%EB%93%9C/49189.py)|
 |76503. 모두 0으로 만들기 🏀|[Link](./Programmers/lv3/76503.%20%EB%AA%A8%EB%91%90%200%EC%9C%BC%EB%A1%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20%F0%9F%8F%80/87694.py)|
 |87694. 아이템 줍기 🏀|[Link](./Programmers/lv3/87694.%20%EC%95%84%EC%9D%B4%ED%85%9C%20%EC%A4%8D%EA%B8%B0%20%F0%9F%8F%80/87694.py)|
+### 🚀 lv4
+| Prob | Link |
+| ----- | ----- |
+|67260. 동굴 탐험 🏀|[Link](./Programmers/lv4/67260.%20%EB%8F%99%EA%B5%B4%20%ED%83%90%ED%97%98%20%F0%9F%8F%80/67260.py)|
