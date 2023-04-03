@@ -1,7 +1,6 @@
 # 
 # Coding Test Practice
-The below problems are provided by (1)Programmers, (2)LeetCode.  
-## 📚 Programmers
+The below problems are provided by (1)Programmers
 ### 🚀 lv1
 | Prob | Link |
 | ----- | ----- |
