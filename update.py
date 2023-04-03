@@ -5,7 +5,7 @@ from urllib import parse
 
 HEADER="""# 
 # Coding Test Practice
-The below problems are provided by (1)Programmers, (2)LeetCode.  
+The below problems are provided by Programmers.
 """
 
 def main():
@@ -36,7 +36,7 @@ def main():
             continue
             
         if directory not in directories:
-            if directory in ["Programmers", "LeetCode"]:
+            if directory in ["Programmers"]:
                 content += "## 📚 {}\n".format(directory)
             else:
                 content += "### 🚀 {}\n".format(directory)
