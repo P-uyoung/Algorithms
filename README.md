@@ -11,6 +11,7 @@ The below problems are provided by Programmers.
 ### 🚀 lv2
 | Prob | Link |
 | ----- | ----- |
+|17680. [1차] 캐시|[Link](./Programmers/lv2/17680.%20%5B1%EC%B0%A8%5D%20%EC%BA%90%EC%8B%9C/code.py)|
 |1844. 게임맵 최단거리 🏀|[Link](./Programmers/lv2/1844.%20%EA%B2%8C%EC%9E%84%EB%A7%B5%20%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC%20%F0%9F%8F%80/1844.py)|
 |42839. 소수 찾기|[Link](./Programmers/lv2/42839.%20%EC%86%8C%EC%88%98%20%EC%B0%BE%EA%B8%B0/42839.py)|
 |42842. 카펫|[Link](./Programmers/lv2/42842.%20%EC%B9%B4%ED%8E%AB/42842.py)|
