@@ -8,6 +8,7 @@ The below problems are provided by Programmers.
 |17682. [1차] 다트 게임|[Link](./Programmers/lv1/17682.%20%5B1%EC%B0%A8%5D%20%EB%8B%A4%ED%8A%B8%20%EA%B2%8C%EC%9E%84/code.py)|
 |42840. 모의고사|[Link](./Programmers/lv1/42840.%20%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC/42840.py)|
 |42862. 체육복|[Link](./Programmers/lv1/42862.%20%EC%B2%B4%EC%9C%A1%EB%B3%B5/42862.py)|
+|42889. 실패율|[Link](./Programmers/lv1/42889.%20%EC%8B%A4%ED%8C%A8%EC%9C%A8/code.py)|
 |86491. 최소직사각형|[Link](./Programmers/lv1/86491.%20%EC%B5%9C%EC%86%8C%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95/README.md)|
 ### 🚀 lv2
 | Prob | Link |
