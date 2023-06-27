@@ -46,6 +46,10 @@ The below problems are provided by Programmers.
 | Prob | Link |
 | ----- | ----- |
 |8958. OX퀴즈|[Link](./%EB%B0%B1%EC%A4%80/Bronze/8958.%E2%80%85OX%ED%80%B4%EC%A6%88/README.md)|
+### 🚀 Gold
+| Prob | Link |
+| ----- | ----- |
+|16236. 아기 상어|[Link](./%EB%B0%B1%EC%A4%80/Gold/16236.%E2%80%85%EC%95%84%EA%B8%B0%E2%80%85%EC%83%81%EC%96%B4/README.md)|
 ### 🚀 Silver
 | Prob | Link |
 | ----- | ----- |
