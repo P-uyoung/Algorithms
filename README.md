@@ -45,6 +45,7 @@ The below problems are provided by Programmers.
 ### 🚀 Bronze
 | Prob | Link |
 | ----- | ----- |
+|2605. 줄 세우기|[Link](./%EB%B0%B1%EC%A4%80/Bronze/2605.%E2%80%85%EC%A4%84%E2%80%85%EC%84%B8%EC%9A%B0%EA%B8%B0/README.md)|
 |8958. OX퀴즈|[Link](./%EB%B0%B1%EC%A4%80/Bronze/8958.%E2%80%85OX%ED%80%B4%EC%A6%88/README.md)|
 ### 🚀 Gold
 | Prob | Link |
