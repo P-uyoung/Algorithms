@@ -46,3 +46,7 @@ The below problems are provided by Programmers.
 | Prob | Link |
 | ----- | ----- |
 |8958. OX퀴즈|[Link](./%EB%B0%B1%EC%A4%80/Bronze/8958.%E2%80%85OX%ED%80%B4%EC%A6%88/README.md)|
+### 🚀 Silver
+| Prob | Link |
+| ----- | ----- |
+|1764. 듣보잡|[Link](./%EB%B0%B1%EC%A4%80/Silver/1764.%E2%80%85%EB%93%A3%EB%B3%B4%EC%9E%A1/README.md)|
