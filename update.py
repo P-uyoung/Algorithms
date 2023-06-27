@@ -36,7 +36,7 @@ def main():
             continue
             
         if directory not in directories:
-            if directory in ["Programmers"]:
+            if directory in ["Programmers", "백준"]:
                 content += "## 📚 {}\n".format(directory)
             else:
                 content += "### 🚀 {}\n".format(directory)
