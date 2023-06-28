@@ -50,6 +50,7 @@ The below problems are provided by Programmers.
 ### 🚀 Gold
 | Prob | Link |
 | ----- | ----- |
+|1275. 커피숍2|[Link](./%EB%B0%B1%EC%A4%80/Gold/1275.%E2%80%85%EC%BB%A4%ED%94%BC%EC%88%8D2/README.md)|
 |16236. 아기 상어|[Link](./%EB%B0%B1%EC%A4%80/Gold/16236.%E2%80%85%EC%95%84%EA%B8%B0%E2%80%85%EC%83%81%EC%96%B4/README.md)|
 ### 🚀 Silver
 | Prob | Link |
