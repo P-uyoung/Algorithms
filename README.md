@@ -45,6 +45,7 @@ The below problems are provided by Programmers.
 ### 🚀 Bronze
 | Prob | Link |
 | ----- | ----- |
+|1268. 임시 반장 정하기|[Link](./%EB%B0%B1%EC%A4%80/Bronze/1268.%E2%80%85%EC%9E%84%EC%8B%9C%E2%80%85%EB%B0%98%EC%9E%A5%E2%80%85%EC%A0%95%ED%95%98%EA%B8%B0/README.md)|
 |2605. 줄 세우기|[Link](./%EB%B0%B1%EC%A4%80/Bronze/2605.%E2%80%85%EC%A4%84%E2%80%85%EC%84%B8%EC%9A%B0%EA%B8%B0/README.md)|
 |8958. OX퀴즈|[Link](./%EB%B0%B1%EC%A4%80/Bronze/8958.%E2%80%85OX%ED%80%B4%EC%A6%88/README.md)|
 ### 🚀 Gold
