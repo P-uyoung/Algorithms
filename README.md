@@ -57,4 +57,5 @@ The below problems are provided by Programmers.
 ### 🚀 Silver
 | Prob | Link |
 | ----- | ----- |
+|1024. 수열의 합|[Link](./%EB%B0%B1%EC%A4%80/Silver/1024.%E2%80%85%EC%88%98%EC%97%B4%EC%9D%98%E2%80%85%ED%95%A9/README.md)|
 |1764. 듣보잡|[Link](./%EB%B0%B1%EC%A4%80/Silver/1764.%E2%80%85%EB%93%A3%EB%B3%B4%EC%9E%A1/README.md)|
