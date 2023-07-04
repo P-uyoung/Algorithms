@@ -54,6 +54,7 @@ The below problems are provided by Programmers.
 | ----- | ----- |
 |1275. 커피숍2|[Link](./%EB%B0%B1%EC%A4%80/Gold/1275.%E2%80%85%EC%BB%A4%ED%94%BC%EC%88%8D2/README.md)|
 |16236. 아기 상어|[Link](./%EB%B0%B1%EC%A4%80/Gold/16236.%E2%80%85%EC%95%84%EA%B8%B0%E2%80%85%EC%83%81%EC%96%B4/README.md)|
+|2293. 동전 1|[Link](./%EB%B0%B1%EC%A4%80/Gold/2293.%E2%80%85%EB%8F%99%EC%A0%84%E2%80%851/README.md)|
 |4485. 녹색 옷 입은 애가 젤다지？|[Link](./%EB%B0%B1%EC%A4%80/Gold/4485.%E2%80%85%EB%85%B9%EC%83%89%E2%80%85%EC%98%B7%E2%80%85%EC%9E%85%EC%9D%80%E2%80%85%EC%95%A0%EA%B0%80%E2%80%85%EC%A0%A4%EB%8B%A4%EC%A7%80%EF%BC%9F/README.md)|
 ### 🚀 Silver
 | Prob | Link |
