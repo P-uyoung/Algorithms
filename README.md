@@ -52,6 +52,7 @@ The below problems are provided by Programmers.
 ### 🚀 Gold
 | Prob | Link |
 | ----- | ----- |
+|10026. 적록색약|[Link](./%EB%B0%B1%EC%A4%80/Gold/10026.%E2%80%85%EC%A0%81%EB%A1%9D%EC%83%89%EC%95%BD/README.md)|
 |1275. 커피숍2|[Link](./%EB%B0%B1%EC%A4%80/Gold/1275.%E2%80%85%EC%BB%A4%ED%94%BC%EC%88%8D2/README.md)|
 |12865. 평범한 배낭|[Link](./%EB%B0%B1%EC%A4%80/Gold/12865.%E2%80%85%ED%8F%89%EB%B2%94%ED%95%9C%E2%80%85%EB%B0%B0%EB%82%AD/README.md)|
 |16236. 아기 상어|[Link](./%EB%B0%B1%EC%A4%80/Gold/16236.%E2%80%85%EC%95%84%EA%B8%B0%E2%80%85%EC%83%81%EC%96%B4/README.md)|
