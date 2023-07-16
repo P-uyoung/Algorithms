@@ -37,9 +37,9 @@ def main():
             
         if directory not in directories:
             if directory in ["Programmers", "백준"]:
-                content += "## 📚 {}\n".format(directory)
+                content += "##  {}\n".format(directory)
             else:
-                content += "### 🚀 {}\n".format(directory)
+                content += "### - {}\n".format(directory)
                 content += "| Prob | Link |\n"
                 content += "| ----- | ----- |\n"
             directories.append(directory)
