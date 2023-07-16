@@ -1,25 +1,26 @@
-import sys
 from collections import defaultdict
-def dfs(a):
-    # visit = [False]*(n+1)
-    queue = []
-    queue.append(a)
-    while queue:
-        next = queue.pop()
-        for i in tree[next]:
-            queue.append(i)
-            total[i] += total[next]  # 직속 상사의 칭찬 수치 더해줌
+import sys
+sys.setrecursionlimit(100000)
 
+n, m = map(int, input().split())
+ans = [0] * (n+1)
+node = defaultdict(list)
+for i, v in enumerate(list(map(int, input().split()))): 
+    # if v != -1:
+    node[v].append(i+1)
 
-n,m = map(int,input().split())
-n_list = list(map(int,input().split()))
-total = [0]*(n+1)
-tree = defaultdict(list)
-for i in range(1,n):
-    tree[n_list[i]].append(i+1)
+def dfs(i):
+    if i not in node:
+        return
+    for j in node[i]:
+        ans[j] += ans[i]
+        dfs(j)
+    return
+    
+for _ in range(m):
+    i, w = map(int, input().split())
+    ans[i] += w
 
-for i in range(m):
-    a,b = map(int,sys.stdin.readline().split())
-    total[a]+=b
 dfs(1)
-print(*total[1:])
+
+print(*ans[1:])   
