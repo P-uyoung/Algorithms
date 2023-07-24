@@ -13,7 +13,7 @@ def dfs(x, y):
         return 1
     if dp[x][y] != -1:
         return dp[x][y]
-    dp[x][y] = 0
+    dp[x][y] = 0   # 방문처리
     for i in range(4):
         nx, ny = x + dx[i], y + dy[i]
         if 0 <= nx < n and 0 <= ny < m:
