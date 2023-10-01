@@ -3,11 +3,6 @@
 import os
 from urllib import parse
 
-HEADER="""# 
-# Coding Test Practice
-The below problems are provided by Programmers.
-"""
-
 def main():
     content = ""
     content += HEADER
