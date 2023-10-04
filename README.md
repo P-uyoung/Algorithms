@@ -77,6 +77,7 @@ The below problems are provided by Programmers and Baekjoon.
 ### - lv3
 | Prob | Link |
 | ----- | ----- |
+|42579. 베스트앨범|[Link](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv3/42579.%E2%80%85%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94/README.md)|
 |43162. 네트워크|[Link](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv3/43162.%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/43162.py)|
 |43162. 네트워크|[Link](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv3/43162.%E2%80%85%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.py)|
 |43163. 단어변환|[Link](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv3/43163.%20%EB%8B%A8%EC%96%B4%EB%B3%80%ED%99%98/43163.py)|
