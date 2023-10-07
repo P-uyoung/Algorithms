@@ -22,5 +22,3 @@ def solution(N, number):
             return i
     
     return -1
-               
-print(solution(2,11))
