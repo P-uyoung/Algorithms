@@ -1,21 +1,24 @@
-import heapq
+from heapq import heappush, heappop
 
 def solution(jobs):
-    count, last, answer = 0, -1, 0
-    heap = []
     jobs.sort()
-    time = jobs[0][0]
     
-    while count < len(jobs):
-        for s, t in jobs:
-            if last < s <= time:
-                heapq.heappush(heap, (t, s))
+    heap = []
+    ans = 0
+    last, time = -1, jobs[0][0]
+    count, n  = 0, len(jobs)
+    while count < n:  # time +1 늘리면서 텀이 짧은것을 우선으로 수행
+        for r, t in jobs:
+            if last < r <= time:  # last와 time은 다름 (else문에 time +=1)
+                heappush(heap, (t,r))
         if len(heap) > 0:
+            term, req = heappop(heap)
             count += 1
+            ans += (term + time-req)
             last = time
-            term, start = heapq.heappop(heap)
             time += term
-            answer += (time - start)
+            
         else:
             time += 1
-    return answer // len(jobs)
+  
+    return ans//n
