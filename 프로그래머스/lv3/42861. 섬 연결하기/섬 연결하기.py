@@ -18,8 +18,8 @@ def solution(n, costs):
     
     for cost in costs:
         a, b, c = cost
-        if find(parent, a) != find(parent, b):
-            union(parent, a, b)
+        if find(parent, a) != find(parent, b): # 사이클 생기는지 확인
             answer += c
+            union(parent, a, b)
             
     return answer
