@@ -61,6 +61,10 @@ The below problems are provided by Programmers and Baekjoon.
 |43164. 여행경로|[Link](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/43164.%E2%80%85%EC%97%AC%ED%96%89%EA%B2%BD%EB%A1%9C/README.md)|
 |43238. 입국심사|[Link](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/43238.%E2%80%85%EC%9E%85%EA%B5%AD%EC%8B%AC%EC%82%AC/README.md)|
 |49189. 가장 먼 노드|[Link](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/49189.%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EB%A8%BC%E2%80%85%EB%85%B8%EB%93%9C/%EA%B0%80%EC%9E%A5%E2%80%85%EB%A8%BC%E2%80%85%EB%85%B8%EB%93%9C.py)|
+### - 5
+| Prob | Link |
+| ----- | ----- |
+|49190. 방의 개수|[Link](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/5/49190.%E2%80%85%EB%B0%A9%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/README.md)|
 ### - lv1
 | Prob | Link |
 | ----- | ----- |
