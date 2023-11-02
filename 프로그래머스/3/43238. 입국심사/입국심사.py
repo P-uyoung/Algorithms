@@ -1,5 +1,5 @@
 def solution(n, times):
-    left, right = 1, max(times) * n
+    left, right = 1, max(times) * (n//len(times))
 
     def count(time):
         nums = 0
@@ -10,6 +10,7 @@ def solution(n, times):
     answer = 0
     while left <= right:
         mid = (left + right) // 2
+        
         counted = count(mid)
         if n == counted:
             answer = mid  # Save the result if the count matches
