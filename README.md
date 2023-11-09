@@ -49,6 +49,10 @@ The below problems are provided by Programmers and Baekjoon.
 |28298. 더 흔한 타일 색칠 문제|[Link](./%EB%B0%B1%EC%A4%80/Silver/28298.%E2%80%85%EB%8D%94%E2%80%85%ED%9D%94%ED%95%9C%E2%80%85%ED%83%80%EC%9D%BC%E2%80%85%EC%83%89%EC%B9%A0%E2%80%85%EB%AC%B8%EC%A0%9C/README.md)|
 |2941. 크로아티아 알파벳|[Link](./%EB%B0%B1%EC%A4%80/Silver/2941.%E2%80%85%ED%81%AC%EB%A1%9C%EC%95%84%ED%8B%B0%EC%95%84%E2%80%85%EC%95%8C%ED%8C%8C%EB%B2%B3/%ED%81%AC%EB%A1%9C%EC%95%84%ED%8B%B0%EC%95%84%E2%80%85%EC%95%8C%ED%8C%8C%EB%B2%B3.py)|
 ##  프로그래머스
+### - 1
+| Prob | Link |
+| ----- | ----- |
+|64061. 크레인 인형뽑기 게임|[Link](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/64061.%E2%80%85%ED%81%AC%EB%A0%88%EC%9D%B8%E2%80%85%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0%E2%80%85%EA%B2%8C%EC%9E%84/README.md)|
 ### - 2
 | Prob | Link |
 | ----- | ----- |
