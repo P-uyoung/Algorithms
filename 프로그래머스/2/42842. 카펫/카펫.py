@@ -1,11 +1,7 @@
-def find_divisors(n):
-    divisors = []
-    for i in range(1, int(n**0.5)+1):
-        if n % i == 0:
-            divisors.append((i, n//i))
-    return divisors
-
 def solution(brown, yellow):
-    for horiz, verti in find_divisors(yellow):
-        if brown == (horiz + verti + 2) * 2:
-            return [verti+2, horiz+2]
+    for i in range(1, int(yellow**0.5)+1):
+        if yellow % i == 0:
+            width = yellow // i
+            height = i
+            if 2*width + 2*height + 4 == brown:
+                return [width + 2, height + 2]
