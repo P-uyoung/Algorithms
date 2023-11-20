@@ -52,6 +52,7 @@ The below problems are provided by Programmers and Baekjoon.
 ### - 1
 | Prob | Link |
 | ----- | ----- |
+|118666. 성격 유형 검사하기|[Link](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/118666.%E2%80%85%EC%84%B1%EA%B2%A9%E2%80%85%EC%9C%A0%ED%98%95%E2%80%85%EA%B2%80%EC%82%AC%ED%95%98%EA%B8%B0/README.md)|
 |64061. 크레인 인형뽑기 게임|[Link](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/64061.%E2%80%85%ED%81%AC%EB%A0%88%EC%9D%B8%E2%80%85%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0%E2%80%85%EA%B2%8C%EC%9E%84/README.md)|
 ### - 2
 | Prob | Link |
