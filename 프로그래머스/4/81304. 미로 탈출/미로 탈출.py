@@ -1,47 +1,155 @@
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
 import heapq
+from collections import defaultdict
+
+INF = float('inf')
 
 
 def solution(n, start, end, roads, traps):
-    edge = [[] for _ in range(n + 1)]
-    mask_idx = {t : n for n, t in enumerate(traps)}
-    traps = tuple(traps)
+    graph = defaultdict(list)
+    # 초기상태의 상황 입력, 3번째 인자는 방향이 맞으면 True, 방향이 반대면 False
+    for a, b, cost in roads:
+        graph[a].append([b, cost, True])
+        graph[b].append([a, cost, False])
+    # TrapToIdx는 traps의 값들을 0부터 순차적으로 넣기 위해, 궁극적으로는 비트마스킹을 이용하기 위해 변환에 필요한 딕셔너리
+    TrapToIdx = dict()
+    traps.sort()
+    for idx, trap in enumerate(traps):
+        TrapToIdx[trap] = idx
+    # distances[trap_state][x] = trap_state인 상태에서 x까지 가는데 걸리는 총 cost
+    distances = [[INF] * (n + 1) for _ in range(1024)]
 
-    for road in roads:
-        a, b, d = road
-        edge[a].append((b, d))
-        edge[b].append((a, -d))
+    def dijactra(start, end):
+        distances[0][start] = 0
+        que = []
+        heapq.heappush(que, [0, start, 0])
+        while que:
+            cur_dis, cur_node, cur_trap = heapq.heappop(que)
+            if distances[cur_trap][cur_node] < cur_dis:
+                continue
+            if cur_node in traps:
+                me = TrapToIdx[cur_node]
+                x = True if cur_trap & (1 << me) >= 1 else False
+            else:
+                x = False
 
-    # bfs
-    heap = [(0, start, 0)]
-    dist = {}
-    while heap:
-        d, idx, mask = heapq.heappop(heap)
-        if dist.get((idx, mask), None):
-            continue
+            '''          
+            token : 초기상태 방향 판단 (True / False)
+            x : cur_node에 따른 방향 (cur_node가 방향 바뀌는데 기여했으면 True 아니면 False)
+            y : adj에 따른 방향 (adj가 방향 바뀌는데 기여했으면 True 아니면 False)
+            token ^ (x ^ y) : 초기 상황에 대해서 방향이 몇번 틀어졌는지 계산해서 이동할 수 있는 간선인지 판단하는 식
 
-        dist[(idx, mask)] = d
-        if idx == end:
-            answer = d
-            print('break')
-            break;
+            [token] [x]     [y]     [result]
+            True    True    True -> True
+            True    True    False -> False
+            True    False   True -> True
+            True    False   False -> False
 
-        direction = 1
-        if idx in traps and (mask & (1 << mask_idx[idx])):
-            direction *= -1
-
-        for near_idx, near_d in edge[idx]:
-            if near_idx in traps and (mask & (1 << mask_idx[near_idx])):
-                near_d *= -1
-
-            if near_d * direction > 0:
-                new_mask = mask
-                if near_idx in traps:
-                    if mask & (1 << mask_idx[near_idx]):
-                        new_mask = mask & ~(1 << mask_idx[near_idx])
+            False   True    True -> False
+            False   True    False -> True
+            False   False   True -> True
+            False   False   False -> False
+            '''
+            for adj, cost, token in graph.get(cur_node):
+                if adj in traps:
+                    you = TrapToIdx[adj]
+                    y = True if cur_trap & (1 << you) >= 1 else False
+                else:
+                    y = False
+                if token ^ (x ^ y):  # 이동할 수 있는 경로라면
+                    if adj in traps:
+                        next_trap = cur_trap ^ (1 << you)
+                        if cur_dis + cost < distances[next_trap][adj]:
+                            distances[next_trap][adj] = cur_dis + cost
+                            heapq.heappush(que, [cur_dis + cost, adj, next_trap])
                     else:
-                        new_mask = mask | (1 << mask_idx[near_idx]) 
+                        if cur_dis + cost < distances[cur_trap][adj]:
+                            distances[cur_trap][adj] = cur_dis + cost
+                            heapq.heappush(que, [distances[cur_trap][adj], adj, cur_trap])
 
-                heapq.heappush(heap, (d + near_d * direction, near_idx, new_mask))
+    # 다익스트라 알고리즘 실행
+    dijactra(start, end)
 
-
+    # 모든 trap의 상황에 따른 end노드 까지의 값들 중 최솟값을 answer에 대입
+    answer = INF
+    for i in range(len(distances)):
+        if distances[i][end] < answer:
+            answer = distances[i][end]
     return answer
