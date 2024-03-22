@@ -1,17 +1,15 @@
-def find_fraction_revised(n):
-    level = 1
-    while n > level:
-        n -= level
-        level += 1
+n = int(input())
+level = 1
+while level < n:
+    n -= level
+    level += 1
 
-    if level % 2 == 0:
-        numerator = n
-        denominator = level - n + 1
-    else:
-        numerator = level - n + 1
-        denominator = n
+if level%2 == 0:
+    a = n
+    b = level + 1 - n
+    
+else:
+    a = level + 1 - n
+    b = n
 
-    return f"{numerator}/{denominator}"
-
-# Retry with the corrected logic
-print(find_fraction_revised(int(input())))
+print(f'{a}/{b}')
